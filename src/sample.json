@@ -1,0 +1,58 @@
+{
+    "questions": {
+      "name": {
+        "type": "text",
+        "label": "Name"
+      },
+      "dateOfBirth": {
+        "type": "date",
+        "label": "Date of Birth"
+      },
+      "mobile": {
+        "type": "number",
+        "label": "Mobile"
+      },
+      "email": {
+        "type": "text",
+        "label": "Email"
+      },
+      "occupation": {
+        "type": "select",
+        "label": "Occupation"
+      },
+      "gender": {
+        "type": "radio",
+        "label": "Select Gender"
+      },
+      "annualIncome": {
+        "type": "number",
+        "label": "Annual Income"
+      }
+    },
+    "sections": {
+      "primaryDetails": [
+        "name",
+        "email",
+        "gender",
+        "mobile"
+      ],
+      "otherDetails": [
+        "annualIncome",
+        "occupation"
+      ],
+      "addressDetails": [
+        "address1",
+        "address2",
+        "zipcode",
+        "state",
+        "district",
+        "city"
+      ],
+      "membersAllocation": [
+        "member1Percentage",
+        "member2Percentage",
+        "member3Percentage"
+      ]
+    }
+  }
+  
